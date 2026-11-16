@@ -1,0 +1,18 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+**/application-local.properties
+
+# Builds and dependencies
+**/target/
+**/node_modules/
+**/dist/
+**/build/
+
+# IDE and operating system
+**/.idea/
+**/.vscode/
+.DS_Store
+Thumbs.db
+*.log
